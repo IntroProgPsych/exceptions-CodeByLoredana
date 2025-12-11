@@ -22,3 +22,12 @@
 # Attempt finished.
 
 # write your code here:
+
+try:
+    number = int(input("Enter a number: "))
+except ValueError:
+    print("This is not an integer.")
+else:
+    print("Conversation successful.")
+finally:
+    print("Attempt finished.")
